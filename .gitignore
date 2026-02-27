@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Output
+alert_anomalies.csv
+forecasts.csv
+forecast_plot.png
