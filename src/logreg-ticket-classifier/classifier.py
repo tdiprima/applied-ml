@@ -1,6 +1,6 @@
 """
 Reads support tickets and automatically sorts them into categories.
-Uses TF-IDF + logistic regression.
+Uses TF-IDF (evaluate the importance of a word) + logistic regression.
 """
 
 import pandas as pd
