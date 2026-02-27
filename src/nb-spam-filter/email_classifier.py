@@ -18,7 +18,6 @@ Simple code: Mere mortal-friendly with comments. Uses sklearn defaults for speed
 
 import time
 
-import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import accuracy_score
