@@ -1,19 +1,7 @@
 #!/usr/bin/env python3
 """
-Full runnable script for ultra-fast email spam classification using Naive Bayes.
-Loads dataset from data/emails.csv
-
-Real automation: Deploy as script/service to filter inbox spam in seconds.
-Deployment > accuracy: MultinomialNB is simple, fast (no deep learning bloat).
-Trains on 1600 emails (~0.01s), tests on 400.
-Benchmarks: Training/inference times for production proof.
-
-Outputs:
-- Model accuracy
-- Training time
-- Inference speed (ms per email batch)
-
-Simple code: Mere mortal-friendly with comments. Uses sklearn defaults for speed.
+Classifies emails as spam or not using Naive Bayes.
+Trains in milliseconds, prints accuracy and speed benchmarks.
 """
 
 import time

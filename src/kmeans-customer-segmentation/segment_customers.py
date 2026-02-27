@@ -1,14 +1,6 @@
 """
-K-Means for automatic customer segmentation.
-Loads customers.csv (5000 realistic records).
-Fits K=5 clusters on scaled features (age, income, spending_score, purchases, session_time).
-Outputs:
-- Cluster sizes & centers (understandable metrics)
-- Per-cluster averages
-- Automation triggers: Different segments → different workflows
-Real automation problem: Trigger emails/campaigns based on cluster.
-Simple/deployable: No complex deps, just sklearn/pandas. Run anywhere.
-Focus: Interpretable clusters for business rules > perfect accuracy.
+Groups customers into 5 segments based on age, income, and behavior.
+Use the segments to target different marketing campaigns per group.
 """
 
 import pandas as pd

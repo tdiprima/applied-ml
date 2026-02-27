@@ -1,10 +1,6 @@
 """
-Full, runnable script for Logistic Regression support ticket classifier.
-Solves real automation: auto-categorize tickets to reduce manual sorting by 70%.
-Loads 'support_tickets.csv', trains TF-IDF + LogReg (max_features=5000).
-Splits 80/20 train/test, prints accuracy, classifies sample tickets.
-Simple, deployable in <2hrs. No DL overkill.
-Run: python classifier.py (after generating dataset)
+Reads support tickets and automatically sorts them into categories.
+Uses TF-IDF + logistic regression.
 """
 
 import pandas as pd

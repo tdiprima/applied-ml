@@ -1,13 +1,7 @@
 #!/usr/bin/env python3
 """
-Isolation Forest anomaly detector for system metrics.
-- Loads 'system_metrics.csv'.
-- Fits model on all data (unsupervised; real deployment scans streams).
-- Flags anomalies (score=-1) at contamination=0.02.
-- Outputs: Summary, anomalous rows, plot with highlights.
-Real automation: Run cron-job style to alert on new data before failures.
-Simple deploy: python anomaly_detector.py >> alerts.log
-Deployment-focused: No complex splits, fast on 100k+ rows.
+Scans system metrics (CPU, memory, disk, network) and flags anything unusual.
+Uses Isolation Forest — no labels needed, just feed it data.
 """
 
 import matplotlib.pyplot as plt

@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 """
-Random Forest for lead qualification automation.
-Trains on scraped leads data, predicts worth pursuing (0/1).
-Outputs: accuracy, feature importances (for explainability),
-         predictions on test set, sample decisions.
-Simple deployable script: retrain or predict in prod pipelines.
-Real problem: Automate sales pursuit from web scrapes.
+Predicts whether a sales lead is worth pursuing (yes/no) using a random forest.
 """
 
 import numpy as np

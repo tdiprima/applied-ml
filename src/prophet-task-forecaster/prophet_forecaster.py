@@ -1,10 +1,5 @@
 """
-Prophet Forecaster for Task Volumes
-Loads historical daily task volumes, fits Prophet model with seasonality & holidays.
-Forecasts next 30 days → prints table, saves CSV/plot.
-Real automation: Use yhat > threshold to trigger auto-scaling (e.g., add servers).
-Simple/deployable: No complex tuning, quick stabilization as noted.
-Run after dataset_generator.py.
+Forecasts daily task volume for the next 30 days using Facebook Prophet.
 """
 import matplotlib.pyplot as plt
 import pandas as pd

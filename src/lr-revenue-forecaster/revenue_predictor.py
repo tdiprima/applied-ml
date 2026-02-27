@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple Linear Regression for Revenue Prediction.
-- Loads realistic 100-month dataset.
-- Trains on ad_spend + visits → revenue.
-- Outputs: metrics, coeffs, future forecast.
-- Automates manual forecasting (e.g., for budgeting).
-- Deployment-focused: fast, interpretable, retrainable.
-- Run after create_revenue_dataset.py.
+Predicts revenue from ad spend and site visits using linear regression.
 """
 
 import joblib  # For easy model save/load in prod
