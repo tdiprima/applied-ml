@@ -1,5 +1,5 @@
 [project]
-name = "machine-learning-models"
+name = "applied-ml"
 version = "0.1.0"
 description = "Machine learning models"
 readme = "README.md"

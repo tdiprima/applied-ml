@@ -1,4 +1,4 @@
-# Machine Learning Models
+# Applied Machine Learning
 
 A collection of practical, production-minded ML implementations covering the most common real-world use cases — from classification and anomaly detection to forecasting and customer segmentation.
 
