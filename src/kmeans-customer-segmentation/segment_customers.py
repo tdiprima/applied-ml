@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 # Load data
 print("Loading customer data... 🏪")
 df = pd.read_csv('customers.csv')
-features = ['age', 'annual_income', 'spending_score', 'num_purchases', 'avg_session_time']
+features = list(df.columns)
 X = df[features].values
 
 # Scale for fair clustering (means=0, std=1)
