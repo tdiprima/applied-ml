@@ -1,5 +1,7 @@
 # Applied Machine Learning
 
+scikit-learn classification, anomaly, forecasting
+
 A collection of practical, production-minded ML implementations covering the most common real-world use cases — from classification and anomaly detection to forecasting and customer segmentation.
 
 The goal is straightforward: demonstrate that machine learning isn't just academic exercise. Each model here solves a concrete business problem, is implemented cleanly in Python, and is paired with clear documentation explaining the algorithm, the reasoning, and the tradeoffs.
